@@ -45,7 +45,7 @@
 
 <li>Breakpoints are customizable widths that determine how your responsive layout behaves across device or viewport sizes in Bootstrap.</li>
 
-<img src="https://github.com/codewithkunal404/Boostrap5-Codewithkunal404/blob/main/Screenshot%202022-01-27%20213928.png" width="120px">
+<img src="https://github.com/codewithkunal404/Boostrap5-Codewithkunal404/blob/main/Screenshot%202022-01-27%20213928.png" width="600px">
 
 
 

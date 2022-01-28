@@ -49,6 +49,23 @@
 
 <img src="https://github.com/codewithkunal404/Boostrap5-Codewithkunal404/blob/main/Screenshot%202022-01-27%20213928.png" width="800px">
 
+<br>
+<br>
+
+># D. Grid
+
+<li>Bootstrap’s grid system uses a series of containers, rows, and columns to layout and align content. It’s built with flexbox and is fully responsive. Below is an example and an in-depth explanation for how the grid system comes together.</li>
+
+<li>grid uses row and col(column)
+    
+    
+ 
+<br>
+<br> 
+    
+>#### Example: <a href="https://codewithkunal404.github.io/Boostrap5-Codewithkunal404/container.html">Runcode</a>/////////<a href="https://github.com/codewithkunal404/Boostrap5-Codewithkunal404/blob/main/container.html">Sourcecode</a>
+
+ 
 
 
 

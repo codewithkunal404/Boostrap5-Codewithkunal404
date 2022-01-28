@@ -66,6 +66,21 @@
 >#### Example: <a href="https://codewithkunal404.github.io/Boostrap5-Codewithkunal404/grid.html">Runcode</a>/////////<a href="https://github.com/codewithkunal404/Boostrap5-Codewithkunal404/blob/main/grid.html">Sourcecode</a>
 
  
+    
+<br>
+<br>
+
+    
+># E. Grid options
+
+<p>Bootstrap’s grid system can adapt across all six default breakpoints, and any breakpoints you customize. The six default grid tiers are as follow:<p>
+
+<li>Extra small (xs)</li>
+<li>Small (sm)</li>
+<li>Medium (md)</li>
+<li>Large (lg)</li>
+<li>Extra large (xl)</li>
+<li>Extra extra large (xxl)</li>
 
 
 

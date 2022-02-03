@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <style>
+
+        *{
+            cursor: pointer;
+        }
+
+        .head1{
+            width: 44%;
+            height: 50px;
+            border: 1px solid rgba(0,0,0,0.50);
+        }
+        
+        .head2{
+            width: 44%;
+            height: 50px;
+            border: 1px solid rgba(0,0,0,0.50);
+        }
+      
+        .head3{
+            width: 44%;
+            height: 50px;
+            border: 1px solid rgba(0,0,0,0.50);
+        }
+      
+      
+        span{
+            float: left;
+            margin-top: 10px;
+            margin-left: 30px;
+            font-size: 1.5em;
+        }
+        
+        
+        .box1{
+
+            width: 40%;
+            height: 30vh;
+            display: none;
+            border: 1px solid rgba(0,0,0,0.50);
+            text-align: justify;
+            padding: 2%;
+           
+            
+            
+        }
+ 
+         .box2{
+
+         width: 40%;
+         height: 30vh;
+         display: none;
+         border: 1px solid rgba(0,0,0,0.50);
+         text-align: justify;
+         padding: 2%;
+
+
+
+        }    
+
+
+        .box3{
+
+        width: 40%;
+        height: 30vh;
+        display: none;
+        border: 1px solid rgba(0,0,0,0.50);
+        text-align: justify;
+        padding: 2%;
+
+
+
+          }
+
+       
+    </style>
+</head>
+<body>
+
+    <div class="head1"> <span>HTML/HTML5 </span></div>
+    <div class="box1">
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet iure doloribus id, eos officia voluptatibus blanditiis aliquam, quos quae, voluptas architecto doloremque exercitationem maxime suscipit. Cum suscipit voluptatibus voluptatem ratione officia nobis voluptates, ipsam itaque ut quidem officiis ad perferendis aliquam doloremque nesciunt unde, voluptate aliquid laudantium laboriosam inventore tenetur dolorem accusantium ducimus. Necessitatibus est, voluptatem repudiandae deleniti commodi sint cupiditate eius recusandae adipisci aspernatur dolores ipsam culpa neque reiciendis magni earum illum, debitis, officia excepturi obcaecati. Sed, repellat nihil. Architecto ea dolorum quidem dolore minima? Aut libero, voluptatibus quia necessitatibus saepe aspernatur, dignissimos rerum nulla odio fuga itaque consequuntur!
+    </div>
+    <div class="head2">
+        <span>HTML/HTML5 </span>
+    </div>
+    <div class="box2">
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet iure doloribus id, eos officia voluptatibus blanditiis aliquam, quos quae, voluptas architecto doloremque exercitationem maxime suscipit. Cum suscipit voluptatibus voluptatem ratione officia nobis voluptates, ipsam itaque ut quidem officiis ad perferendis aliquam doloremque nesciunt unde, voluptate aliquid laudantium laboriosam inventore tenetur dolorem accusantium ducimus. Necessitatibus est, voluptatem repudiandae deleniti commodi sint cupiditate eius recusandae adipisci aspernatur dolores ipsam culpa neque reiciendis magni earum illum, debitis, officia excepturi obcaecati. Sed, repellat nihil. Architecto ea dolorum quidem dolore minima? Aut libero, voluptatibus quia necessitatibus saepe aspernatur, dignissimos rerum nulla odio fuga itaque consequuntur!
+    </div>
+
+    <div class="head3">
+        <span>HTML/HTML5 </span>
+    </div>
+    <div class="box3">
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet iure doloribus id, eos officia voluptatibus blanditiis aliquam, quos quae, voluptas architecto doloremque exercitationem maxime suscipit. Cum suscipit voluptatibus voluptatem ratione officia nobis voluptates, ipsam itaque ut quidem officiis ad perferendis aliquam doloremque nesciunt unde, voluptate aliquid laudantium laboriosam inventore tenetur dolorem accusantium ducimus. Necessitatibus est, voluptatem repudiandae deleniti commodi sint cupiditate eius recusandae adipisci aspernatur dolores ipsam culpa neque reiciendis magni earum illum, debitis, officia excepturi obcaecati. Sed, repellat nihil. Architecto ea dolorum quidem dolore minima? Aut libero, voluptatibus quia necessitatibus saepe aspernatur, dignissimos rerum nulla odio fuga itaque consequuntur!
+    </div>
+
+    
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+$(".head1").click(function(){
+
+    $(".box1").slideToggle()
+    $(".box2").slideUp()
+    $(".box3").slideUp()
+
+    $(".head1").css({
+        "background":"lightblue"
+    })
+    $(".head2").css({
+        "background":"none"
+    })
+    $(".head3").css({
+        "background":"none"
+    })
+    
+    
+})
+
+
+
+
+
+
+$(".head2").click(function(){
+
+$(".box2").slideToggle()
+$(".box1").slideUp()
+$(".box3").slideUp()
+
+    $(".head2").css({
+        "background":"lightblue"
+    })
+    $(".head1").css({
+        "background":"none"
+    })
+    $(".head3").css({
+        "background":"none"
+    })
+    
+
+})
+
+
+
+
+
+$(".head3").click(function(){
+
+$(".box3").slideToggle()
+$(".box1").slideUp()
+$(".box2").slideUp()
+
+    $(".head3").css({
+        "background":"lightblue"
+    })
+    $(".head2").css({
+        "background":"none"
+    })
+    $(".head1").css({
+        "background":"none"
+    })
+    
+
+})
+
+
+        })
+    </script>
+</body>
+</html>
